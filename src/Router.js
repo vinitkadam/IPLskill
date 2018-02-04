@@ -5,8 +5,8 @@ import Home from './screens/Home';
 const RouterComponent = () => {
     return (
       <Router>
-          <Scene key="root">
-            <Scene key="main" initial>
+          <Scene key="root" hideNavBar>
+            <Scene key="main" initial hideNavBar>
                 <Scene key="home" component={Home} />
             </Scene>
           </Scene>
